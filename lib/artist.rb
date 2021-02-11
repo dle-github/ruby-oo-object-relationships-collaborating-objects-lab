@@ -7,7 +7,7 @@ class Artist
         ######################
         @name = input
         @songs = []
-        p "adding self [#{self}] to @@all: [#{@@all}]"
+        p "adding Artist [#{self}] to @@all: [#{@@all}]"
         @@all << self
         p @@all
     end
